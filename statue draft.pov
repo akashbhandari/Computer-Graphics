@@ -30,7 +30,6 @@ rgb<1,0,0>
 }
 }    
   
-  
 cylinder{
 <0,-6,0>//base point
 <0,12,0>//cap point
@@ -42,8 +41,6 @@ rgb<1,1,0>
 }
 }  
 
-
-
 torus{
 5//major radius
 .9//minor radius
@@ -54,14 +51,10 @@ rgb<1,.75,.5>
 }
 }
 
-
-
 light_source{
 <-100,-100,0>//location of sun
 rgb<1,1,1>//which color do u want to through
 }
-
-
 
 sphere{
 <0,-4,0>//center of sphere
@@ -71,7 +64,6 @@ SolidRed
 }
 }
 
-
 sphere{
 <0,-2.4,0>//center of sphere
 .9//radius of the sphere
@@ -80,7 +72,6 @@ SolidRed
 } 
 }
 
-
 sphere{
 <0,-5.6,0>//center of sphere
 .9//radius of the sphere
@@ -88,7 +79,6 @@ texture{
 SolidRed
 } 
 } 
-
 
 cone{
 <0,-12,0>//base point
@@ -102,7 +92,6 @@ rgb<1,0,1>
 }
 }
 
-
 cone{
 <0,-18,0>
 0
@@ -115,20 +104,15 @@ rgb<0,0,1>
 }
 }
 
-
-
 light_source{
 <100,-100,-50>
 rgb<1,.75,0>
 }
 
-
-
 light_source{
 <0,-100,-100>
 rgb<1,1,1>
 } 
-
 
 torus{
 8//major radius
@@ -164,13 +148,10 @@ rgb<1.5,1,0.9>
 }
 }
 
-
 light_source{
 <0,0,-100>
 rgb <1,.75,1>
 }
-    
-    
     
 sphere{//bottomleft sphere
 <-2,-20,-2>
@@ -182,10 +163,6 @@ rgb <.6,0,.7>
 }
 }    
    
-
-
-
-
 sphere{//bottomright sphere
 <2,-20,-2>
 4
@@ -195,8 +172,6 @@ rgb <.6,0,0.7>
 }
 }
 } 
-
-
 
 cone{
 <0,-29,-2>
@@ -209,8 +184,6 @@ rgb <1,0,1>
 }
 }
 }
-
-
 
 cylinder{
 <4,0,0>
@@ -225,15 +198,10 @@ rgb <0,1,0>
 }
 }    
 
-
-
 light_source{
 <-0,100,0>
 rgb <1,1,1>
 }
-  
-  
-  
   
 cone{///hat of the abstract picture
 <0,5,0>
@@ -247,9 +215,6 @@ rgb <0,1,.2>
 }
 }
 }
-
-   
-
 
 sphere{//mouth of the abstract picture
 <0,3,-2>
@@ -272,7 +237,6 @@ rgb<1,0.8,0.5>
 }
 }
 }   
- 
  
 light_source{
 <100,-100,-100>
